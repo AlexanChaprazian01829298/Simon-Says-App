@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SimonSaysFragment">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifView"
+        android:layout_width="826dp"
+        android:layout_height="889dp"
+        android:src="@drawable/beijing"
+        android:translationX="-180dp"
+        android:translationY="-80dp" />
+
+    <TextView
+        android:id="@+id/rounds"
+        android:textSize="40sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="0dp"
+        android:textColor="@color/white"
+        android:text="@string/Rounds" />
+
+    <Button
+        android:id="@+id/q1"
+        android:layout_width="125dp"
+        android:layout_height="109dp"
+
+        android:translationX="75dp"
+        android:translationY="170dp"
+        android:backgroundTint="@color/white"
+        android:alpha="0.9"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/q2"
+        android:layout_width="125dp"
+        android:layout_height="109dp"
+
+        android:translationX="210dp"
+        android:translationY="170dp"
+        android:backgroundTint="@color/white"
+        android:alpha="0.9"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/q3"
+        android:layout_width="125dp"
+        android:layout_height="109dp"
+
+        android:translationX="75dp"
+        android:translationY="280dp"
+        android:backgroundTint="@color/white"
+        android:alpha="0.9"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/q4"
+        android:layout_width="125dp"
+        android:layout_height="109dp"
+
+        android:translationX="210dp"
+        android:translationY="280dp"
+        android:backgroundTint="@color/white"
+        android:alpha="0.9"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/waitOrGo"
+        android:textSize="40sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="125dp"
+        android:textColor="@color/white"
+        android:text="@string/wait" />
+
+    <Button
+        android:id="@+id/beginButton"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Begin"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:alpha="0.7"
+        android:translationX="155dp"
+        android:translationY="460dp" />
+
+</FrameLayout>

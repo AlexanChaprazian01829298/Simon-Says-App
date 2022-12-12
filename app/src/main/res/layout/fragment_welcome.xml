@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeFragment">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifView"
+        android:layout_width="826dp"
+        android:layout_height="889dp"
+        android:src="@drawable/beijing"
+        android:translationX="-180dp"
+        android:translationY="-80dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/Title"
+        android:textColor="@color/white"
+        android:textSize="80sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/highScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textColor="@color/white"
+        android:text="@string/highscore"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:translationX="90dp"
+        android:translationY="300dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="112dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:text="@string/WelcomeButton"
+        android:textColor="@color/black"
+        android:translationY="150dp"
+        android:alpha="0.7"/>
+
+    <ImageButton
+        android:id="@+id/soundOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_lock_silent_mode_off"
+        android:translationX="5dp"
+        android:translationY="10dp"
+        android:alpha="0.8"
+        />
+
+    <ImageButton
+        android:id="@+id/soundOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_lock_silent_mode"
+        android:translationX="5dp"
+        android:translationY="60dp"
+        android:alpha="0.8"/>
+
+
+
+</FrameLayout>

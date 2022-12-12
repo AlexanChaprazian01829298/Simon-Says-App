@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameOverFragment">
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifView"
+        android:layout_width="826dp"
+        android:layout_height="889dp"
+        android:src="@drawable/beijing"
+        android:translationX="-180dp"
+        android:translationY="-80dp" />
+    <TextView
+        android:id="@+id/textView"
+        android:textSize="100sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_gravity="center|top"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="0dp"
+        android:textColor="@color/white"
+        android:text="@string/gameover" />
+
+    <TextView
+        android:id="@+id/finalScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/finalScore"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:translationY="370dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/playAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/playAgain"
+        android:translationY="450dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/white"
+        android:translationX="-60dp"
+        android:alpha="0.7"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/Quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quit"
+        android:translationY="450dp"
+        android:translationX="75dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/white"
+        android:alpha="0.7"
+        android:textColor="@color/black"/>
+</FrameLayout>

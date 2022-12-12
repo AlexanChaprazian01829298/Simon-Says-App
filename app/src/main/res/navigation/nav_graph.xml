@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.bigbrainthegame.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_simonSaysFragment"
+            app:destination="@id/simonSaysFragment" />
+        <argument
+            android:name="background"
+            app:argType="string"
+            android:defaultValue="hello" />
+    </fragment>
+    <fragment
+        android:id="@+id/simonSaysFragment"
+        android:name="com.example.bigbrainthegame.SimonSaysFragment"
+        android:label="fragment_simon_says"
+        tools:layout="@layout/fragment_simon_says" >
+        <action
+            android:id="@+id/action_simonSaysFragment_to_gameOverFragment"
+            app:destination="@id/gameOverFragment" />
+        <argument
+            android:name="message"
+            app:argType="string"
+            android:defaultValue="no" />
+        <argument
+            android:name="background1"
+            app:argType="string"
+            android:defaultValue="hello" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameOverFragment"
+        android:name="com.example.bigbrainthegame.GameOverFragment"
+        android:label="fragment_game_over"
+        tools:layout="@layout/fragment_game_over" >
+        <argument
+            android:name="background2"
+            app:argType="string"
+            android:defaultValue="hello" />
+        <action
+            android:id="@+id/action_gameOverFragment_to_simonSaysFragment"
+            app:destination="@id/simonSaysFragment" />
+        <action
+            android:id="@+id/action_gameOverFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+        <argument
+            android:name="score"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.bigbrainthegame.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.example.bigbrainthegame.HelpFragment"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.bigbrainthegame.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_simonSaysFragment"
+            app:destination="@id/simonSaysFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_gameOverFragment"
+            app:destination="@id/gameOverFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+    </fragment>
+</navigation>

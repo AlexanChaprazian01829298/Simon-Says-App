@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">BigBrainTheGame</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="settings">Choose a color and theme</string>
+    <string name="WelcomeButton">Play!</string>
+    <string name="Begin">Begin</string>
+    <string name="Rounds">Round 1</string>
+    <string name="Title">Simon Says</string>
+    <string name="colorSettingTool">Color Setting Tool</string>
+    <string name="helpBottom">Help</string>
+    <string name="gameBoard">Game</string>
+    <string name="aboutBottom">About</string>
+    <string name="highscore">High Score: 0</string>
+    <string name="gameover">Game Over</string>
+    <string name="playAgain">Play Again</string>
+    <string name="quit">Quit</string>
+    <string name="finalScore">Score:</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="tokyo">Tokyo</string>
+    <string name="vegas">Vegas</string>
+    <string name="london">London</string>
+    <string name="beijing">Beijing</string>
+    <string name="change">Change</string>
+    <string name="about">Simon Says is a game that tests your memory. Created in December of 2022, Simon Says involves four buttons that light up in a random order and it is the player\'s job to remember the order and be able to click the buttons correctly.</string>
+    <string name="about2">Tools: Android Studio</string>
+    <string name="about3">Original Creators: Krestina Beshara, Alexan Chaprazian BigBrainTheGame Copyright c 2022</string>
+    <string name="help">In order to play the game, press the begin button. Wait for the first button to light up, then when it is your turn, click the button that was lit up. Each round the number of buttons that light up will increase by one. The goal is to remember the order of the buttons that light up and be able to click them in the correct order. Test your memory and see how far you can go!</string>
+    <string name="wait" />
+</resources>

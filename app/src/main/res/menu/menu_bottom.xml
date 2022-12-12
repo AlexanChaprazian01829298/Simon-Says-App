@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/helpFragment"
+        android:title="@string/helpBottom"
+        android:icon="@drawable/help_button"/>
+
+    <item
+        android:id="@+id/simonSaysFragment"
+        android:title="@string/gameBoard"
+        android:icon="@android:drawable/ic_menu_gallery"/>
+
+    <item
+        android:id="@+id/aboutFragment"
+        android:title="@string/aboutBottom"
+        android:icon="@drawable/about_button" />
+</menu>

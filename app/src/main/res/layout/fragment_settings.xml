@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifView"
+        android:layout_width="826dp"
+        android:layout_height="889dp"
+        android:src="@drawable/beijing"
+        android:translationX="-180dp"
+        android:translationY="-80dp" />
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/settings"
+        android:textSize="40sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center|top"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"/>
+    <RadioGroup
+        android:id = "@+id/colorGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/red"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="150dp"
+            android:text="@string/red"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/green"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="150dp"
+            android:text="@string/green"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/blue"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="150dp"
+            android:text="@string/blue"
+            android:textColor="@color/white"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:id = "@+id/themeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/tokyo"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="210dp"
+            android:text="@string/tokyo"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/london"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="210dp"
+            android:text="@string/london"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/vegas"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="210dp"
+            android:text="@string/vegas"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/beijing"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="210dp"
+            android:text="@string/beijing"
+            android:textColor="@color/white"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/changeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change"
+        android:alpha="0.7"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:translationY="290dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+</FrameLayout>
