@@ -7,9 +7,32 @@ the sequence to move onto the next round. If a sequence is incorrectly inputted 
 score.
 
 The app includes several screens that the player can navigate to which can be seen below.
-![image](https://user-images.githubusercontent.com/53905350/209450299-0ac90168-d89e-45db-82f9-1a2c8c8f47a1.png) Welcome screen where the player can start the game and see the highest acheived score
-![image](https://user-images.githubusercontent.com/53905350/209450304-e245ff1b-df12-4366-942b-4a4ca43468a2.png) Help screen which explains how to play the game.
-![image](https://user-images.githubusercontent.com/53905350/209450312-c9ff11ce-727c-4be5-a68c-f35546fb8dce.png) About screen gives background on the game and the creators of this app.
-![image](https://user-images.githubusercontent.com/53905350/209450364-18ab5f90-c732-46c8-85dc-ae1e531f899f.png) Setting screen which lets you customize background and button colors 
-![image](https://user-images.githubusercontent.com/53905350/209450366-236490ab-eb32-44fc-9726-f4e62b51cfbb.png) The game screen where you can start, view, and try to match the sequnce for each round
-![image](https://user-images.githubusercontent.com/53905350/209450367-ab544de9-b8e1-4a08-a406-879be5c286ff.png) The game over screen where it displays the score you got during that run of the game. Lets you go back to the game or start at the welcome screen
+
+![image](https://user-images.githubusercontent.com/53905350/209450299-0ac90168-d89e-45db-82f9-1a2c8c8f47a1.png) 
+
+Welcome screen where the player can start the game and see the highest acheived score
+
+
+![image](https://user-images.githubusercontent.com/53905350/209450304-e245ff1b-df12-4366-942b-4a4ca43468a2.png)
+
+Help screen which explains how to play the game.
+
+
+![image](https://user-images.githubusercontent.com/53905350/209450312-c9ff11ce-727c-4be5-a68c-f35546fb8dce.png)
+
+About screen gives background on the game and the creators of this app.
+
+
+![image](https://user-images.githubusercontent.com/53905350/209450364-18ab5f90-c732-46c8-85dc-ae1e531f899f.png) 
+
+Setting screen which lets you customize background and button colors 
+
+
+![image](https://user-images.githubusercontent.com/53905350/209450366-236490ab-eb32-44fc-9726-f4e62b51cfbb.png)
+
+The game screen where you can start, view, and try to match the sequnce for each round
+
+
+![image](https://user-images.githubusercontent.com/53905350/209450367-ab544de9-b8e1-4a08-a406-879be5c286ff.png) 
+
+The game over screen where it displays the score you got during that run of the game. Lets you go back to the game or start at the welcome screen
