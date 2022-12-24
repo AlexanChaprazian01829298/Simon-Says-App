@@ -1,11 +1,9 @@
 package com.example.bigbrainthegame
 
-import SimonSaysViewModel
 import android.content.Context
 import android.content.SharedPreferences
 import android.graphics.Color
 import android.os.Bundle
-import android.provider.Settings
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
