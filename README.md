@@ -1,10 +1,10 @@
 # Simon-Says-App
-The app will consist of the memory game known as Simon Says. The app meant to be like a fun
+The app will consist of the memory game known as Simon Says. The app is meant to be a fun
 puzzle game for users to test their memory. The goal is to test the ability of the user to memorize
-patterns in short periods of time. Consists of the classic implementation of simon Says where there are four
-buttons that will flash in a sequence that increases after each round on the screen and the player needs to correctly match 
-the sequence to move onto the next round. If a sequence is incorrectly inputted then it ends and you will be taken to see your
-score.
+patterns in short periods. It consists of the classic implementation of Simon Says, where four
+buttons will flash in a sequence that increases after each round, and the player needs to correctly match 
+the sequence to move on to the next round. If a sequence is incorrectly inputted, it ends, and the game will take you to see your
+score. Simon says the app was created with a partner listed in the app to display fundamental android app programming practices.
 
 The app includes several screens that the player can navigate to which can be seen below.
 
